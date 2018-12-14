@@ -1,7 +1,110 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>Jon Miles</title>
+	<meta charset="utf=8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous">
+  </script>
+	<script src="js/index.js"></script>
+</head>
 <body>
-<h1>Jon Miles Personal Webpage</h1>
-<p>"This is my website" -Morgan</p>
+	<header>
+		<div>
+			<a href="" id="link-home">Jon Miles</a>
+			<nav>
+				<a href="" id="link-education">Education</a>
+				<a href="" id="link-experience">Experience</a>
+				<a href="" id="link-activities">Activities</a>
+				<a href="" id="link-projects">Projects</a>
+				<a href="" id="link-resume">Resume</a>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div id="home">
+			<p>Welcome to my personal site, which is currently undergoing maintenance.</p>
+		</div>
+		<div id="education">
+			<h1>Education</h1>
+			<div class="item">
+				<div class="heading">
+					<a href="https://www.egr.msu.edu/" target="_blank">
+						<p>Michigan State University &ndash; College of Engineering</p>
+						<img src="assets/ic_external_site.svg" width="10px" height="10px" alt="Icon designates clicking previous text will open an external page.">
+					</a>
+					<p>East Lansing, MI</p>
+				</div>
+				<div class="role">
+					<p><em>Bachelor of Science: Computer Science</em></p>
+					<p>August 2014 &ndash; May 2018</p>
+				</div>
+				<div class="role border">
+					<p><em>Minor in Game Design and Development</em></p>
+					<p>3.58/4.0 cumulative GPA</p>
+				</div>
+			</div>
+		</div>
+		<div id="experience">
+			<h1>Experience</h1>
+			<div class="item">
+				<div class="heading">
+					<a href="https://www.humana.com/" target="_blank">
+						<p>Humana</p>
+						<img src="assets/ic_external_site.svg" width="10px" height="10px" alt="Icon designates clicking previous text will open an external page.">
+					</a>
+					<p>Louisville, KY</p>
+				</div>
+				<div class="role border">
+					<p><em>Advanced Mobile Applications Intern</em></p>
+					<p>August 2016 &ndash; Present</p>
+				</div>
+				<div class="description">
+					<ul>
+						<li>Works remotely over the school year, but was on-site during summer 2017.</li>
+						<li>Enhances the MyHumana and Go365 mobile apps which have a combined total of over 50,000 daily active users.</li>
+						<li>Development includes front-end work primarily for Android and back-end microservices work in C#.</li>
+						<li>Utilizes Extreme Programming (XP) methodologies such as test-driven development, paired programming, code peer reviews, and week-long development cycles.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="activities">
+			<h1>Activities</h1>
+			<div class="item">
+				<div class="heading">
+					<a href="https://17.spartahack.com/" target="_blank">
+						<p>SpartaHack 2017 &ndash; MSU&#8217;s 3<sup>rd</sup> Annual Student-Run Hackathon</p>
+						<img src="assets/ic_external_site.svg" width="10px" height="10px" alt="Icon designates clicking previous text will open an external page.">
+					</a>
+					<p>East Lansing, MI</p>
+				</div>
+				<div class="role border">
+					<p><em>Android Developer</em></p>
+					<p>September 2016 &ndash; February 2017</p>
+				</div>
+				<div class="description">
+					<ul>
+						<li>Developed the SpartaHack 2017 Android application which had over 300 installs the weekend of the hackathon.</li>
+						<li>Used frameworks such as Retrofit, Realm, Butterknife, and Robolectric, and Junit for production.</li>
+						<li>Coordinated volunteers, managed help desk, and mentored during the weekend-long event.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="projects">
+			<h1>Projects</h1>
+			<a href="Homogeneous_Covers_of_Finite_Groups_Jon_Miles.pdf"><p>Homogeneous Covers of Finite Groups</p></a>
+		</div>
+		<div id="resume">
+			<iframe src="https://drive.google.com/viewerng/viewer?url=https://muyskens.me/resume.pdf?pid=explorer&efh=false&a=v&chrome=false&embedded=true">
+    	</div>
+	</main>
 </body>
 </html>
